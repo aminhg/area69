@@ -1,4 +1,4 @@
-name: "nextjs"
+name: "area69"
 
 on: push
 
@@ -13,8 +13,8 @@ jobs:
               with:
                   node-version: 12
                   registry-url: https://registry.npmjs.org
-            - name: publish
-              run: npm publish --access public
+            - name: area69
+              run: npm area69 --access public
               working-directory: my-package
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
